@@ -1,0 +1,48 @@
+/* styles.css */
+.range-slider {
+    margin-bottom: 20px;
+  }
+  
+  .range-label-top-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .range-input-container {
+    position: relative;
+  }
+  
+  .range-input {
+    width: 100%;
+   
+
+  
+  }
+
+  /* styles.css or your component's stylesheet */
+#rangeInput::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; /* Set the width of the slider thumb */
+  height: 20px; /* Set the height of the slider thumb */
+  background-color: #3498db; /* Set the background color of the slider thumb */
+  border: 2px solid #2980b9; /* Set the border of the slider thumb */
+  border-radius: 50%; /* Make the slider thumb circular */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+ 
+  
+  .range-value {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  
